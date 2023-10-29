@@ -4,12 +4,14 @@ import { SideBar } from './components/SideBar'
 function App() {
   return (
     <>
-    <NavBar />
     
     <div className='bg-indigo-600 w-full h-screen'>
+    <NavBar />
     <SideBar />
+    
     </div>
     </>
+    
   )
 }
 
