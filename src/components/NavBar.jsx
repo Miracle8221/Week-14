@@ -9,7 +9,7 @@ function NavBar() {
             {name:'CONTACT',link:'/'},
         ];
       return (
-       <div className='shadow-md w-full fixed top-0 left-0'>
+       <div className='shadow-md w-full fixed top-0 left-0 z-50'>
         <div className='md:flex bg-white items-center justify-end py-4 md:px-10 px-7'>
             <ul className='md:flex md:items-center '>
                 {
