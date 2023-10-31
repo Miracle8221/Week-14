@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from './components/NavBar'
 import { SideBar } from './components/SideBar'
 import { Body } from './components/body'
+import Card from './components/Card'
 function App() {
   return (
     <>
@@ -10,6 +11,12 @@ function App() {
     <SideBar />
     <div className=' absolute top-[100px] w-90 left-[20%] '>
     <Body />
+    <div className='flex justify-center gap-7 mt-5'>
+    <Card product="Basic" price="50" members="2 teams members" storage="20GB Cloud Storage"/>
+    <Card product="Standard" price="100" members="3 teams members" storage="50GB Cloud Storage"/>
+    <Card product="Premium" price="200" members="5 teams members" storage="100GB Cloud Storage"/>
+    </div>
+
     </div>
     </div>
     </>
