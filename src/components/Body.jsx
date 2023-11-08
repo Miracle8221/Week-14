@@ -9,8 +9,8 @@ export const Body = () => {
     </div>
         <img className="rounded-full w-96 h-96 cursor-pointer filter grayscale transition-all duration-300 shadow-md shadow-black hover:grayscale-0" src="./src/assets/pic/image1.jpg" alt="image description"/>
     </div>
+  )
+}
 
         
 
-  )
-}
