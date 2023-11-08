@@ -14,7 +14,7 @@ function NavBar() {
             <ul className='md:flex md:items-center '>
                 {
                    links.map((link)=>(
-                    <li className=' text-xl '>
+                    <li className=' text-xl' key={link.name}>
                         <a href={link.link} className='text-gray-800 hover:text-gray-400 duration-500 px-7'>{link.name}</a>
                     </li>
                    )) 
