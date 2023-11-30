@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Body = () => {
+function Body () {
   return (
     <div>
     <div className='font-bold'>
@@ -12,5 +12,5 @@ export const Body = () => {
   )
 }
 
-        
+export default Body    
 
