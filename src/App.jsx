@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './components/NavBar'
 import { SideBar } from './components/SideBar'
-import {Body}  from './components/Body'
+import Body  from './components/Body'
 import Card from './components/Card'
 import  Footer  from './components/Footer'
 
